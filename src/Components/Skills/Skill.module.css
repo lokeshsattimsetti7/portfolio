@@ -1,0 +1,177 @@
+.MainSection {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 171px 112px;
+    position: relative;
+}
+
+.TopSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.TopSection h1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: auto;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.TopSection p {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    line-height: 35px;
+    color: #A7A7A7;
+    margin: 0px;
+}
+
+.BottomSection {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.BottomSection h1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    font-size: 36px;
+    line-height: auto;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.SkillsSection ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.SkillsSection li {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    line-height: 35px;
+    color: #A7A7A7;
+    margin: 0px;
+    margin-bottom: 30px;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.SkillsSection ul li img {
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .MainSection {
+        padding: 10px 10px 10px;
+    }
+
+    .TopSection h1 {
+        font-size: 27px;
+        margin: 0px;
+    }
+
+    .TopSection p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .BottomSection h1 {
+        font-size: 16px;
+    }
+
+    .SkillsSection ul {
+        gap: 30px;
+    }
+
+    .SkillsSection li {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 20px;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .SkillsSection ul li img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 901px) {
+    .MainSection {
+        padding: 50px 30px;
+    }
+
+    .TopSection h1 {
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+
+    .TopSection p {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    .BottomSection h1 {
+        font-size: 23px;
+    }
+
+    .SkillsSection ul {
+        gap: 50px;
+    }
+
+    .SkillsSection li {
+        font-size: 18px;
+        line-height: 15px;
+        margin-bottom: 20px;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .SkillsSection ul li img {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .MainSection {
+        padding: 20px 70px 20px;
+    }
+
+    .TopSection h1 {
+
+        font-size: 40px;
+
+    }
+
+    .SkillsSection ul {
+        gap: 60px;
+    }
+
+}

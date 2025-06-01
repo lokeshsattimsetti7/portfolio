@@ -1,0 +1,129 @@
+.MainSection {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 171px 100px;
+    position: relative;
+}
+
+.TopSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TopSection h1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: auto;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.BottomSection {
+    display: flex;
+    gap: 306px;
+}
+
+.LeftSection p {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    line-height: 45px;
+    color: #A7A7A7;
+    margin: 0px;
+    text-align: center;
+}
+
+.RightSection img {
+    width: 457px;
+    height: 386px;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .MainSection {
+        padding: 10px 10px 10px;
+
+    }
+
+
+    .TopSection h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .BottomSection {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .LeftSection p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .RightSection img {
+        width: 120px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .MainSection {
+        padding: 10px 30px;
+
+    }
+
+    .TopSection h1 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .BottomSection {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .LeftSection p {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+
+    .RightSection img {
+        width: 120px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .MainSection {
+        padding: 20px 70px 20px;
+    }
+
+    .BottomSection {
+        display: flex;
+        gap: 106px;
+    }
+
+    .LeftSection p {
+        font-size: 15px;
+        line-height: 25px;
+        color: #A7A7A7;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .RightSection img {
+        width: 120px;
+        height: 150px;
+    }
+
+
+
+}
