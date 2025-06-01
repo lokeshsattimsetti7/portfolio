@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import styles from "./Banner.module.css";
 import logo from "./Image (3).png";
 import { gsap } from "gsap";
-import { TextPlugin } from "gsap/TextPlugin";
+// import { TextPlugin } from "gsap/TextPlugin";
 
 gsap.registerPlugin(TextPlugin);
 
