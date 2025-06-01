@@ -2,8 +2,9 @@ import React, { useEffect, useRef } from "react";
 import styles from "./Banner.module.css";
 import logo from "./Image (3).png";
 import { gsap } from "gsap";
-import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
-gsap.registerPlugin(ScrambleTextPlugin);
+import { TextPlugin } from "gsap/TextPlugin";
+
+gsap.registerPlugin(TextPlugin);
 
 const Banner = () => {
   const line1Ref = useRef();
@@ -11,22 +12,14 @@ const Banner = () => {
   const logoRef = useRef();
 
   useEffect(() => {
-    const tl = gsap.timeline({ defaults: { ease: "none" } });
+    const tl = gsap.timeline({ defaults: { ease: "power1.inOut" } });
 
     tl.to(line1Ref.current, {
-      scrambleText: {
-        text: "I'm Lokesh Sattimsetti, a  Front-End Developer",
-        chars: "POWER STAR",
-        speed: 0.4,
-      },
+      text: "I'm Lokesh Sattimsetti, a Front-End Developer",
       duration: 2,
     }).to(line2Ref.current, {
-      scrambleText: {
-        text: "I'm a creative developer who brings clean code and captivating interfaces together.",
-        chars: "PAWAN KALYAN",
-        speed: 0.5,
-      },
-      duration: 2,
+      text: "I'm a creative developer who brings clean code and captivating interfaces together.",
+      duration: 3,
     });
 
     gsap.to(logoRef.current, {
@@ -58,3 +51,4 @@ const Banner = () => {
 };
 
 export default Banner;
+
