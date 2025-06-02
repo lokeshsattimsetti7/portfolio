@@ -2,11 +2,11 @@ import React, { useEffect, useRef } from "react";
 import styles from "./Banner.module.css";
 import logo from "./Image (3).png";
 import { gsap } from "gsap";
-<<<<<<< HEAD
+// <<<<<<< HEAD
 import { TextPlugin } from "gsap/TextPlugin";
-=======
+// =======
 // import { TextPlugin } from "gsap/TextPlugin";
->>>>>>> 3d62854ce14a27f56605e2ba8349e79192850027
+// >>>>>>> 3d62854ce14a27f56605e2ba8349e79192850027
 
 gsap.registerPlugin(TextPlugin);
 
