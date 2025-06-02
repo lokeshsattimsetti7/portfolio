@@ -2,13 +2,6 @@ import React, { useEffect, useRef } from "react";
 import styles from "./Banner.module.css";
 import logo from "./Image (3).png";
 import { gsap } from "gsap";
-// <<<<<<< HEAD
-import { TextPlugin } from "gsap/TextPlugin";
-// =======
-// import { TextPlugin } from "gsap/TextPlugin";
-// >>>>>>> 3d62854ce14a27f56605e2ba8349e79192850027
-
-gsap.registerPlugin(TextPlugin);
 
 const Banner = () => {
   const line1Ref = useRef();
@@ -16,15 +9,34 @@ const Banner = () => {
   const logoRef = useRef();
 
   useEffect(() => {
-    const tl = gsap.timeline({ defaults: { ease: "power1.inOut" } });
-
-    tl.to(line1Ref.current, {
-      text: "I'm Lokesh Sattimsetti, a Front-End Developer",
-      duration: 2,
-    }).to(line2Ref.current, {
-      text: "I'm a creative developer who brings clean code and captivating interfaces together.",
-      duration: 3,
+    const tl = gsap.timeline({
+      defaults: { ease: "power1.inOut", duration: 1 },
     });
+
+    tl.fromTo(
+      line1Ref.current,
+      { opacity: 0, y: 20 },
+      {
+        opacity: 1,
+        y: 0,
+        onStart: () => {
+          line1Ref.current.textContent =
+            "I'm Lokesh Sattimsetti, a Front-End Developer";
+        },
+      }
+    ).fromTo(
+      line2Ref.current,
+      { opacity: 0, y: 20 },
+      {
+        opacity: 1,
+        y: 0,
+        delay: 0.5,
+        onStart: () => {
+          line2Ref.current.textContent =
+            "I'm a creative developer who brings clean code and captivating interfaces together.";
+        },
+      }
+    );
 
     gsap.to(logoRef.current, {
       y: -10,
