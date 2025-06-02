@@ -17,9 +17,11 @@
 .gradient {
     background: linear-gradient(to right, #13B0F5 3%, #E70FAA 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: transparent;
     font-family: "Poppins", sans-serif;
-    margin: 0px;
+    margin: 0;
     font-size: 72px;
     font-weight: bold;
 }
