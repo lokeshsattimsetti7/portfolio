@@ -155,10 +155,11 @@
 }
 
 .RightSide img {
-    width: 457px;
-    height: 386px;
+    width: 357px;
+    height: 286px;
     animation: float 3s ease-in-out infinite;
 }
+
 
 /* 
 @keyframes float {
