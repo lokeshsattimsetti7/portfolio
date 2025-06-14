@@ -22,7 +22,7 @@ const Project = () => {
           <div className={styles.Button}>
             {" "}
             <a
-              href=" https://exclusive-website-lokeshsattimsetti7s-projects.vercel.app/"
+              href="https://exclusive-6si1og1w6-lokeshsattimsetti7s-projects.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
