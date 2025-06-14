@@ -29,7 +29,7 @@ const Project = () => {
               <button className={styles.glow}>Website link</button>
             </a>
             <a
-              href="https://github.com/lokeshsattimsetti7/ExclusiveWebsite.git"
+              href="https://github.com/lokeshsattimsetti7/Exclusive.git"
               target="_blank"
               rel="noopener noreferrer"
             >
