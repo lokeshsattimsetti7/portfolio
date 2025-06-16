@@ -22,14 +22,14 @@ const Project = () => {
           <div className={styles.Button}>
             {" "}
             <a
-              href="https://exclusive-6si1og1w6-lokeshsattimsetti7s-projects.vercel.app/"
+              href="https://e-commerce-website-vpod-git-master-lokeshsattimsetti7s-projects.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <button className={styles.glow}>Website link</button>
             </a>
             <a
-              href="https://github.com/lokeshsattimsetti7/Exclusive.git"
+              href="https://github.com/lokeshsattimsetti7/E-CommerceWebsite.git"
               target="_blank"
               rel="noopener noreferrer"
             >
