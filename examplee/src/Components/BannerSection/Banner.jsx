@@ -14,7 +14,7 @@ const Banner = () => {
           interfaces together
         </p>
     <a
-              href="https://drive.google.com/file/d/1pcTk7--7_HtKqPEV0SKWWtgfU0oRkDQx/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1ZAUACDNFCOXjE2cV80sMGsoDIbSwbOt1/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
