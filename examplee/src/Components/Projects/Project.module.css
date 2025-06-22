@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 30px;
     padding: 100px 171px 100px 171px;
 }
 
@@ -25,23 +26,29 @@
     margin: 0px;
 }
 
+.belowSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
 .Block {
     display: flex;
-    flex-direction: row;
-    gap: 100px;
-
-}
-
-.LeftSide {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 
 }
 
-.LeftSide h1 {
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.Block h1 {
     color: #ffffff;
     font-family: "Poppins", sans-serif;
     margin: 0px;
@@ -53,26 +60,25 @@
 
 
 
-.LeftSide p1 {
+.Block p1 {
     font-family: "Poppins", sans-serif;
     text-align: center;
-    font-size: 32px;
+    font-size: 20px;
     line-height: 35px;
     color: #A7A7A7;
     margin: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
 }
 
-.Button {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 200px;
-    align-items: center;
+
+.Block img {
+    border-radius: 30px;
+
 }
 
-.Button A {
+
+.Block a {
     text-decoration: none;
 }
 
@@ -80,15 +86,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 70px;
+    width: 200px;
+    height: 50px;
     outline: none;
     color: #ffffff;
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 11px;
-    font-size: 25px;
+    font-size: 15px;
     border: 1px solid #E70FAA
 }
 
@@ -154,9 +160,9 @@
     justify-content: center;
 }
 
-.RightSide img {
-    width: 457px;
-    height: 386px;
+.Block img {
+    width: 257px;
+    height: 250px;
     animation: float 3s ease-in-out infinite;
 }
 
@@ -178,14 +184,14 @@
 
 
 @media (min-width: 320px) and (max-width: 600px) {
-
     .MainSection {
         padding: 10px 10px 20px 10px;
+        flex-direction: column;
     }
 
     .Block {
         flex-direction: column;
-        gap: 20px;
+        gap: 0px;
     }
 
     .MainSection h1 {
@@ -195,31 +201,32 @@
 
     .MainSection p {
         font-size: 15px;
-        line-height: 20px;
-        margin-bottom: 10px;
+        line-height: 0px;
+        margin-bottom: 0px;
     }
+
+    .belowSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
 
     .LeftSide {
         gap: 0px;
     }
 
-    .LeftSide h1 {
+    .Block h1 {
         font-size: 16px;
     }
 
-    .LeftSide p1 {
+    .Block p1 {
         font-size: 11px;
         line-height: 15px;
     }
 
-    .Button {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 30px;
-        align-items: center;
-        margin-top: 0px;
-    }
 
 
     .glow {
@@ -231,7 +238,7 @@
         font-size: 13px;
     }
 
-    .RightSide img {
+    .Block img {
         width: 120px;
         height: 150px;
     }
@@ -253,14 +260,14 @@
         line-height: 22px;
     }
 
-    .LeftSide h1 {
-        font-size: 20px;
+    .Block h1 {
+        font-size: 15px;
         margin: 0px;
     }
 
-    .LeftSide p1 {
-        font-size: 22px;
-        line-height: 30px;
+    .Block p1 {
+        font-size: 10px;
+        line-height: 20px;
         margin: 0px;
     }
 
@@ -268,16 +275,21 @@
         gap: 0px;
     }
 
+    .belowSection {
+        display: flex;
+        gap: 100px;
+    }
+
     .glow {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 200px;
-        height: 40px;
-        font-size: 15px;
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
     }
 
-    .RightSide img {
+    .Block img {
         width: 120px;
         height: 150px;
     }
@@ -307,19 +319,25 @@
         margin-bottom: 20px;
     }
 
-    .LeftSide {
-        gap: 10px;
+    .belowSection {
+        gap: 90px;
 
     }
 
-    .LeftSide h1 {
-        font-size: 30px;
+    .Block h1 {
+        font-size: 20px;
 
     }
 
-    .LeftSide p1 {
-        font-size: 25px;
-        line-height: 30px;
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .Block p1 {
+        font-size: 11px;
+        line-height: 0px;
         margin-bottom: 0px;
 
     }
@@ -338,12 +356,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 200px;
-        height: 40px;
-        font-size: 15px;
+        width: 180px;
+        height: 30px;
+        font-size: 12px;
     }
 
-    .RightSide img {
+    .Block img {
         width: 120px;
         height: 150px;
     }
