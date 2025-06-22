@@ -4,7 +4,7 @@ import html from "./html.png";
 import css from "./css.png";
 import js from "./js.png";
 import react from "./React.png";
-// import gsap from "./Gsap.png";
+import gsap from "./Gsap.png";
 import python from "./Python.png";
 
 const Skill = () => {
@@ -35,11 +35,11 @@ const Skill = () => {
               <img src={react} alt="frontend" />
               REACT
             </li>
-            {/* <li>
+             <li>
               {" "}
               <img src={gsap} alt="frontend" />
               GSAP
-            </li> */}
+            </li> 
           </ul>
         </div>
         <h1>languages</h1>
