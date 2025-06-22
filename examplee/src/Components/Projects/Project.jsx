@@ -3,6 +3,7 @@ import styles from "./Project.module.css";
 import One from "./E.png";
 import Two from "./spotify.png";
 import Three from "./blog.png";
+import Four from "./SkinCare.png";
 const Project = () => {
   return (
     <div className={styles.MainSection}>
@@ -68,6 +69,28 @@ const Project = () => {
             </a>
             <a
               href="https://github.com/lokeshsattimsetti7/Blog.git"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={styles.glow}>Github</button>
+            </a>
+          </div>
+        </div>
+        <div className={styles.Block}>
+          <img src={Four} alt="one" />
+          <h1>Skin Care</h1>
+
+          <p1>Developed using React Js & Gsap</p1>
+          <div className={styles.buttons}>
+            <a
+              href="https://six-nine-git-main-lokeshsattimsetti7s-projects.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={styles.glow}>Website link</button>
+            </a>
+            <a
+              href="https://github.com/lokeshsattimsetti7/SixNine.git"
               target="_blank"
               rel="noopener noreferrer"
             >
