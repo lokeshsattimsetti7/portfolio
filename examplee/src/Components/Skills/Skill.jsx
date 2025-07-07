@@ -35,11 +35,11 @@ const Skill = () => {
               <img src={react} alt="frontend" />
               REACT
             </li>
-            <li>
+            {/* <li>
               {" "}
               <img src={gsap} alt="frontend" />
               GSAP
-            </li>
+            </li> */}
           </ul>
         </div>
         <h1>languages</h1>
