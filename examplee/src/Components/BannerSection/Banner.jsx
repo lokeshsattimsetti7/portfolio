@@ -13,7 +13,13 @@ const Banner = () => {
           I'm a creative developer who brings clean code and captivating
           interfaces together
         </p>
-        <button className={styles.glow}>Resume</button>
+        <a
+          href="https://drive.google.com/file/d/1ZAUACDNFCOXjE2cV80sMGsoDIbSwbOt1/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className={styles.glow}>Resume</button>
+        </a>
       </div>
 
       <div className={styles.RightSide}>

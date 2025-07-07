@@ -5,6 +5,11 @@
     gap: 130px;
     padding: 50px 171px 100px;
 }
+.MainSection a {
+    
+text-decoration: none;
+}
+    
 
 .LeftSide {
     display: flex;
