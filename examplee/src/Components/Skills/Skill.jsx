@@ -4,7 +4,7 @@ import html from "./html.png";
 import css from "./css.png";
 import js from "./js.png";
 import react from "./React.png";
-import gsap from "./Gsap.png";
+
 import python from "./Python.png";
 
 const Skill = () => {
